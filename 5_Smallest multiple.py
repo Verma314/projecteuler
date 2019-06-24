@@ -7,3 +7,4 @@ print (lcm)
 
 
 # because lcm(a,b) * gcd(a,b) = a * b  [WHY?]
+# How does GCD even work?
