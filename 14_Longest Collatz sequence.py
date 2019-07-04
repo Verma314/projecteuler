@@ -12,7 +12,7 @@ memories = {}
 
 max_size = 0
 max_ele = 0
-for element in range (2,9999999):
+for element in range (2,999999):
 
     size = 0
     given = element
