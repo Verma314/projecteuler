@@ -1,5 +1,7 @@
 import math
 
+#how does a computer implement factorial
+#how do python's 
 
 x = str(math.factorial(100))
 summer = 0
