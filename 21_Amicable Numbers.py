@@ -16,16 +16,13 @@ def divisors(n):
     divisorList.append(1)
     return sum(divisorList)
 
+amicableNumbers = set()
 
+for n in range(1,10001):
+    a = divisors(n)
+    if ( divisors(a) == n and n != a ):
+        amicableNumbers.add(a)
+        print ( "divisors( "+ str(n)+" )="+ str(a) + ", divisors ("+ str(a) + ")= " +  str(n) )
 
-d = {}
-for i in range(1,10001):
-    d[i] = divisors(i)
-
-
-for i in d:
-    if ( d[i] in d):
-        amicableNumbers.add(i)
-        amicableNumbers.add(d[i])
-
-print (sum(amicableNumbers))
+print( amicableNumbers)
+print ( sum(amicableNumbers) )
