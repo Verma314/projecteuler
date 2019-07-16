@@ -1,7 +1,7 @@
 # projecteuler
 
 
-Problems marked \*\ mean that the solution is not working
+Problems marked \*\ mean that the something about the code is off, it may or may not be working
 
 Problems marked \!\ mean that a hacky, hit-and trial way was used, and more elegant solutions are needed.
 
